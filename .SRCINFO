@@ -1,6 +1,6 @@
 pkgbase = envytools-git
 	pkgdesc = A tool for nouveau debugging
-	pkgver = 0.r4044.3b4bd3e
+	pkgver = 0.r4324.e317caf
 	pkgrel = 1
 	epoch = 1
 	url = https://github.com/envytools/envytools
@@ -14,6 +14,8 @@ pkgbase = envytools-git
 	depends = libpciaccess
 	depends = libxml2
 	depends = libvdpau
+	provides = envytools=0.r4324.e317caf
+	conflicts = envytools
 	options = staticlibs
 	source = envytools-git::git+https://github.com/envytools/envytools.git
 	sha256sums = SKIP
